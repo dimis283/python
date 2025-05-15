@@ -4,7 +4,7 @@ import pandas as pd
 # Σύνδεση με τη βάση
 conn = sqlite3.connect('emp.database')
 
-# Γράψε εδώ το SQL query σου (παράδειγμα)
+#  SQL query
 query = """
 SELECT Employee_Name, EmpID, GenderID, Department, Position, Salary, PerformanceScore, EmpSatisfaction, EmploymentStatus, Absences
 FROM employees
