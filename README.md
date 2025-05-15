@@ -11,7 +11,16 @@
 Διαβαζει το Dataset_Malawi_National_Football_Team_Matches και βγάζει ένα γραφημα για τα αποτελέσματα των αγώνων
 6.Dataset_Malawi_National_Football_Team_Matches.csv
 Dataset με τους αγώνες της Malawi National Football Team
+7.emp.database 
+Βαση δεδομένων sqlite 
+8.exported_data.csv
+csv αρχείο στο οποίο έξαγει φιλτραρισμενα δεδομένα το tocsv.py
+9.tocsv.py 
+εξαγει στο exported_data.csv φιλτραρισμένα δεδομέτα από το emp.database
+10.details.py
+Αναλυση μέσου όρου μισθου και employee satisfaction ανά τμήμα
 
 In this project I have the following files 1.export.py
    This is connected to the "to do list" project in laravel that I have done (it is not online) and I am downloading the "projects" in csv format with the purpose of data analysis. 2.projects.csv is an example of csv that exports.py creates and has 2 fields ready for data analysis 3.plot.py Processes csv and produces a graph 4.types_of_project.pbix A power BI desktop file that has a graph
-   5.football,py Reads the Dataset_Malawi_National_Football_Team_Matches and give a graph for the match results. 6.Dataset_Malawi_National_Football_Team_Matches.csv Dataset with the matches of the Malawi National Football Team.
+   5.football,py Reads the Dataset_Malawi_National_Football_Team_Matches and give a graph for the match results. 6.Dataset_Malawi_National_Football_Team_Matches.csv Dataset with the matches of the Malawi National Football Team. 7.emp.database  sqlite database 8.exported_data.csv  CSV file with filtered data from tocsv.py 9.tocsv.py  exports filtered data to exported_data.csv 10.details.py analyze the average salary and employee satisfaction across different departments 
+ 
